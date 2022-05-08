@@ -75,6 +75,27 @@ public class App {
         System.out.println("remove spaces");
         App.removeSpace(a3);
 
+        String b1 = "Lucas";
+        String b2 = new String("Lucas");
+        String b3 = "Lucas";
+        if(b1 == b3)
+        {
+            System.out.println("matching addresses");
+        }
+        if(b1.equals(b2))
+        {
+            System.out.println("Matching Contents");
+        }
+        else{
+            System.out.println("False");
+        }
+
+
+
+
+
+
+
         System.out.println("----------------Array Stuff-------------------");
         App.countArray(collectionOfFavs);
         
