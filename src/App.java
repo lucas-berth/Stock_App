@@ -115,7 +115,7 @@ public class App {
             System.out.println(anArray[i]);
         }
         
-        
+        System.out.println(anArray[8]);
         
     }
 
