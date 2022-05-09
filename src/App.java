@@ -98,6 +98,23 @@ public class App {
 
         System.out.println("----------------Array Stuff-------------------");
         App.countArray(collectionOfFavs);
+
+        int[] anArray;
+        anArray = new int[1000]; 
+
+        for(int i = 0; i < anArray.length; i++)
+        {
+            if(i % 2 != 0)
+            {
+                anArray[i] += i;
+            }
+        }
+
+        for(int i = 0; i < anArray.length; i++)
+        {
+            System.out.println(anArray[i]);
+        }
+        
         
         
     }
